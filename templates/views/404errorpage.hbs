@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>styleLink}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- Main Header -->
+
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+                <figure class="errimg">
+                  <img src="images/error.png" alt="ashura" class="img-fluid" title="ashuraMajestic">
+                </figure>
+              <p>Welcome to Ashura World</p>
+              <h1>{{errorMessage}}</h1>
+              <a href="/"><button>Go back</button></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer part -->
+   {{>footer}}
+
+  </body>
+</html>
